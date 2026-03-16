@@ -1,0 +1,10 @@
+[project]
+name = "db_schema"
+version = "0.1.0"
+description = "Modelos y migraciones compartidas"
+requires-python = ">=3.10"
+dependencies = ["SQLAlchemy>=2.0", "alembic>=1.13"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
